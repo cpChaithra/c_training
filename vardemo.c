@@ -15,11 +15,3 @@ void display (int count,...)
 {
      display(3,67,13,90);
 }
-
-
-
-
-
-
-
-
