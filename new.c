@@ -1,0 +1,1 @@
+//write a c program with a function with a variadic argument
