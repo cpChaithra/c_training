@@ -18,9 +18,9 @@ void real_swap(float *pca,float *pcb)
 void main()
 {
     float ca,cb;
-    printf("enter currency a");
+    printf("enter currency a:");
     scanf("%f",&ca);
-    printf("enter currency b");
+    printf("enter currency b:");
     scanf("%f",&cb);
     fake_swap(ca,cb);
     printf("fake_swap:ca=%f cb=%f\n",ca,cb);

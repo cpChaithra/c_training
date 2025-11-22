@@ -20,7 +20,7 @@ void main()
     enum month m;
     m=may;
     char *season;
-    
+
     switch(m)
     {
         case december: case january:case february:
@@ -32,5 +32,6 @@ void main()
         case september:case october:case november:
         season="spring";break;
     }
-    printf("%d",may);
+    printf("%d",m);
+    printf("%s",season);
 }
